@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mono-line {
+  width: 100%;
+  height: 10px;
+  background-color: #ccccff;
+  display: flex;
+}
+
+
 header {
   width: 1200px;
   display: flex;
@@ -5,36 +18,12 @@ header {
 }
 
 .logo {
-      position: relative;
-      width: 54px;
-      box-sizing: content-box;
-      border-width: 50px 18px 0;
-      border-style: solid;
-      border-color: red transparent;
-      margin-top: 42px;
-      background: #000;
-      display: flex;
-      margin-right: 200px;
-    }
-    .logo:before {
-      content: "";
-      position: absolute;
-      height: 0;
-      width: 0;
-      top: -85px;
-      left: -18px;
-      border-width: 0 45px 35px;
-      border-style: solid;
-      border-color: transparent transparent red;
-    }
-
-.logo > span {
-    position: relative;
-    bottom: 40px;
-    left: 20px;
-    font-size: 24px;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
 }
+
 
 .main-menu {
   width: 560px;
@@ -61,3 +50,186 @@ header {
 }
 
 
+#body-main {
+  height: 600px;
+  margin: 0;
+  background-image: url('img/blur.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#body-main > h1 {
+  padding-top: 250px;
+}
+
+#body-main > p {
+  padding-top: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #e7e7e7;
+  display: flex;
+  align-items: center;
+}
+
+
+footer > p {
+  margin-left: 140px;
+}
+
+footer > .facebook {
+  height: 32px;
+  width: 32px;
+  margin-left: 60%;
+}
+
+
+
+
+/* aboutme.html */
+
+
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+#body > p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 40px;
+}
+
+#me {
+  background-image: url('img/prom.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+}
+
+
+#body-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#me-child {
+  background-image: url('img/kharkiv.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  margin-left: 36px;
+}
+
+#body-second {
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 40px;
+}
+
+
+/* HOBBIES SECTION */ 
+
+#body-hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+
+.schoolgirl {
+  background-image: url('img/schoolgirl.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 320px;
+  height: 400px;
+  margin-left: 36px;
+  margin-right: 200px;
+}
+
+#body-hobbies > ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+#body-hobbies > ul > li {
+  margin-top: 5px;
+}
+
+
+.skills > li > p > a {
+  text-decoration: none;
+}
+
+
+
+
+/* WORKS PART */
+
+#works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#athena {
+  border-radius: 16px;
+  height: 350px;
+  width: 180px;
+  padding: 36px;
+  text-align: center;
+}
+
+#athena > #draw {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 180px;
+  height: 250px;
+  background-image: url('img/athena.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#athena > h3 {
+  margin-top: 5px;
+}
+
+
+#demeter-draw {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 180px;
+  height: 250px;
+  background-image: url('img/demeter.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#belgium-draw {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 180px;
+  height: 250px;
+  background-image: url('img/belgium.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#girl-draw {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 180px;
+  height: 250px;
+  background-image: url('img/normgirl.png');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
