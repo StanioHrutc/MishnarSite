@@ -1,3 +1,9 @@
+@font-face {
+  font-family: martel;
+  src: url('fonts/Martel/Martel-Regular.ttf');
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +28,11 @@ header {
   justify-content: center;
   align-items: center;
   margin-right: 80px;
+}
+
+.logo > span {
+  font-family: martel;
+  font-size: 20px;
 }
 
 
@@ -61,11 +72,19 @@ header {
 }
 
 #body-main > h1 {
+  font-family: martel;
+  font-style: bold;
+  font-size: 26px;
+  color: #fff;
   padding-top: 250px;
 }
 
 #body-main > p {
   padding-top: 25px;
+  font-family: martel;
+  font-style: bold;
+  font-size: 20px;
+  color: #fff
 }
 
 footer {
@@ -87,6 +106,18 @@ footer > .facebook {
   margin-left: 60%;
 }
 
+footer > .tumblr {
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+}
+
+footer > p {
+  font-family: martel;
+  font-style: bold;
+  font-size: 20px;
+  color: #000; 
+}
 
 
 
@@ -103,6 +134,9 @@ footer > .facebook {
   font-size: 20px;
   line-height: 25px;
   margin-left: 40px;
+  font-family: martel;
+  font-style: italic;
+  color: #000;
 }
 
 #me {
@@ -136,6 +170,11 @@ footer > .facebook {
   margin-left: 40px;
 }
 
+#body-second > p {
+  font-family: martel;
+  font-style: italic;
+  color: #000;
+}
 
 /* HOBBIES SECTION */ 
 
@@ -170,7 +209,11 @@ footer > .facebook {
   text-decoration: none;
 }
 
-
+.skills > li > p {
+  font-family: martel;
+  font-size: 14px;
+  color: #000;
+}
 
 
 /* WORKS PART */
@@ -201,8 +244,17 @@ footer > .facebook {
 
 #athena > h3 {
   margin-top: 5px;
+  font-family: martel;
+  font-style: bold;
+  color: #000;
 }
 
+#athena > p {
+  font-family: martel;
+  font-style: italic;
+  color: #000;
+  font-size: 14px;
+}
 
 #demeter-draw {
   border-top-right-radius: 16px;
@@ -232,4 +284,65 @@ footer > .facebook {
   background-image: url('img/normgirl.png');
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+
+.space {
+  height: 300px;
+}
+
+
+/* html element part */
+
+
+#about-head {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+
+#example {
+  width: 200px;
+  height: 220px;
+  border: 2px solid #8366a3;
+  border-radius: 8px;
+  margin-left: 80px;
+}
+
+#overview > p {
+  font-family: martel;
+  font-style: italic;
+  color: #000;
+}
+
+#example > p {
+  font-family: martel;
+  font-style: italic;
+  font-size: 12px;
+  color: #000;
+}
+
+/*CONTACT ME */
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 200px;
+  width: 400px;
+   border: 2px solid #8366a3;
+  padding: 8px;
+}
+
+#form > form > table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
